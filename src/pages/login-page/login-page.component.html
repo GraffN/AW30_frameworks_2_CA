@@ -1,0 +1,7 @@
+<div class="[ login ]">
+  <h1 class="login--title">{{ title }}</h1>
+  <app-login-component class="login--form" (userDetailObj)="testUserDetails($event)"
+                       [isUsername]="isUsername" 
+                       [isPassword]="isPassword" 
+  ></app-login-component>
+</div>

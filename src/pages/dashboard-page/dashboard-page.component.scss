@@ -1,0 +1,35 @@
+.weather--card{
+    width: 30%;
+    border: solid 1px black;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.container{
+  width: 25%;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: lightsteelblue;
+  display: inline-block;
+  &__green{
+    background-color: forestgreen;
+  }
+  &__blue{
+    background-color: deepskyblue;
+  }
+  &__pink{
+    background-color: hotpink;
+  }
+}
+.fox--container{
+  background-color: lawngreen;
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  &__img{
+    width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+<h1>Weather For Norway Oslo<br /></h1>
+<div class="[ weather--card ]" *ngFor="let weather of weatherDetail">
+      <p>Sky Conditions: {{ weather.weather_state_name }}</p>
+      <p>Min Tempreture: {{ weather.min_temp }}</p>
+      <p>Max Tempreture: {{ weather.max_temp }}</p>
+      <p>Actual Tempreture: {{ weather.the_temp }}</p>
+      <p>Date Created: {{ weather.created }}</p>
+      <p>Humidity: {{ weather.humidity }}</p>
+</div>
+<div class="container container__green" >
+  <h2>insult number: {{evilInsultDetail.number}} </h2>
+  <p>{{evilInsultDetail.insult}}</p>
+  <p>created: {{evilInsultDetail.created}}</p>
+</div>
+<div class="container container__blue">
+  <h2>random stuff to do</h2>
+  <p>{{randomStuffToDoDetail.activity}}</p>
+</div>
+<div class="container container__pink">
+  <h2>Advice number:</h2>
+  <p>{{randomAdviceDetail.slip.slip_id}}</p>
+
+  <p>{{randomAdviceDetail.slip.advice}}</p>
+</div>
+<div class="fox--container">
+  <h2>Random fox image</h2>
+  <img class="fox--container__img" src="{{foxPictureDetail.image}}" alt="random fox picture">
+</div>
