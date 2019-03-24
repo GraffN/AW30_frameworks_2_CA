@@ -1,3 +1,21 @@
+# First angular page
+
+#How to run curret project
+
+1. start off with creating a new folder on your desktop
+2. download this repository to the folder you just created
+3. by the means of your teminal, CD into the root of this repo you just downloaded ( the root folder should be "myDashboard" )
+4. install the json packages by typing in "npm install" on your commandline
+5. start you local host by typing "npm start", this should start a local server on "http://localhost:4200"
+
+6. the current username is admin and password is @admin.
+
+7.Enjoy!!
+
+
+
+
+
 # MyDashboard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.

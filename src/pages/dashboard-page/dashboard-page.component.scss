@@ -1,12 +1,16 @@
 .weather--card{
     width: 30%;
+  background-color: lightgray;
+    font-family: Calibri, sans-serif;
     border: solid 1px black;
     float: left;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
     margin-left: 10px;
     padding: 10px;
 }
 .container{
+  font-family: Calibri, sans-serif;
   font-size: 20px;
   width: 25%;
   height: 250px;
@@ -27,6 +31,7 @@
   }
 }
 .fox--container{
+  font-family: Calibri, sans-serif;
   background-color: lawngreen;
   display: inline-block;
   width: 500px;
