@@ -7,13 +7,15 @@
     padding: 10px;
 }
 .container{
+  font-size: 20px;
   width: 25%;
-  height: 200px;
+  height: 250px;
+  font-weight: bold;
   padding: 20px;
   margin: 20px;
   text-align: center;
   background-color: lightsteelblue;
-  display: inline-block;
+  display: inline-grid;
   &__green{
     background-color: forestgreen;
   }
@@ -29,6 +31,7 @@
   display: inline-block;
   width: 500px;
   height: 500px;
+  text-align: center;
   &__img{
     width: 100%;
   }
